@@ -1,0 +1,132 @@
+.EmployeeContainer{
+    background-image: url('https://wallpaperaccess.com/full/4893770.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.heading{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+}
+
+.formsection {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12), 0 1.5px 6px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+  max-width: 400px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 12px;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+}
+
+.button:hover {
+  background: #125ea8;
+  transform: translateY(-2px) scale(1.03);
+}
+
+.Employee-heading{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.line {
+  border: none;
+  height: 3px;
+  width: 80%;
+  margin: 32px auto;
+  background: linear-gradient(90deg, white 0%, white 100%);
+  border-radius: 2px;
+  opacity: 0.85;
+}
+
+.employeeDetailsCard {
+  list-style: none;
+  padding: 0;
+  margin: 32px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.employeeDetailsCard li {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(25, 118, 210, 0.10), 0 1.5px 6px rgba(0,0,0,0.08);
+  padding: 24px 32px;
+  min-width: 260px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+
+.employeeDetailsCard .text {
+  margin: 6px 0;
+  font-size: 1.08rem;
+  color: #333;
+}
+
+.employeeDetailsCard button {
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #1976d2;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+
+.buttonsArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.employeeDetailsCard button:last-child {
+  background: #e53935;
+}
+
+.employeeDetailsCard button {
+  background: lightgreen;
+}
+
+
+.employeeDetailsCard button:hover {
+  background: #125ea8;
+}
+
+.employeeDetailsCard button:last-child:hover {
+  background: #b71c1c;
+}
